@@ -1,0 +1,38 @@
+Hi - Thanks for your interested in the predictive analytics workshop. We hope to see you at GHC !! 
+
+Python setup (This should work for windows/linux/mac platforms): 
+1. You need to install Anaconda that comes with the correct version of python and all required data science libraries including numpy and scipy and scikit-learn.
+
+You can download and install anaconda by following instructions on this page. 
+https://docs.continuum.io/anaconda/install
+
+During the install you must add the Anaconda bin directory to your path.
+
+Open a new terminal, and check if anaconda is installed correctly, and works.
+> conda list
+# Will show you a list of packages installed
+
+# On Mac & Linux, type
+> which python 
+# To make sure the Anaconda version of python is running on your system
+----------------------------------------------------------------------------
+
+2. Go to the command line to the directory of anaconda installation. You need to update scikit-learn from anaconda by running the command : 
+
+> conda list scikit-learn
+# Will show scikit-learn 0.17
+
+> conda update scikit-learn
+# Will download and install new version of scikit-learn
+
+> conda list scikit-learn
+# This will show the installed version 
+# Make sure you have version 0.18.1 for scikit-learn
+--------------------------------------------------------------------------------
+
+3. Go to the directory where you have downloaded the GHC workshop material. You will have files ghc_test.py and the data file movie_metadata.csv here. Run the test file as follows. 
+
+> python ghc_test.py 
+# You should get output without any errors and see a success message
+
+Congrats! You are now ready for the workshop.
